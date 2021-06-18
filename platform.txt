@@ -105,14 +105,6 @@ tools.serial_upload.upload.params.verbose=-d
 tools.serial_upload.upload.params.quiet=n
 tools.serial_upload.upload.pattern="{path}/{cmd}" {serial.port.file} "{build.path}/{build.project_name}.bin"
 
-##gdlink upload
-tools.gdlink_upload.cmd=gdlink_upload
-tools.gdlink_upload.cmd.windows=gdlink_upload.bat
-tools.gdlink_upload.path.windows={runtime.tools.gd32tools-1.0.0.path}/win
-tools.gdlink_upload.upload.params.verbose=-d
-tools.gdlink_upload.upload.params.quiet=n
-tools.gdlink_upload.upload.pattern="{path}/{cmd}"  "{build.path}/{build.project_name}.bin"
-
 ##jlink_upload
 tools.jlink_upload.cmd=jlink_upload
 tools.jlink_upload.cmd.windows=jlink_upload.bat
