@@ -112,3 +112,11 @@ tools.jlink_upload.path={runtime.tools.gd32tools-1.0.0.path}/win
 tools.jlink_upload.upload.params.verbose=-d
 tools.jlink_upload.upload.params.quiet=n
 tools.jlink_upload.upload.pattern="{path}/{cmd}" "{build.path}/{build.project_name}.bin"
+
+##gdlink upload
+tools.gdlink_upload.cmd=gdlink_upload
+tools.gdlink_upload.cmd.windows=gdlink_upload.bat
+tools.gdlink_upload.path.windows={runtime.tools.gd32tools-1.0.0.path}/win
+tools.gdlink_upload.upload.params.verbose=-d
+tools.gdlink_upload.upload.params.quiet=n
+tools.gdlink_upload.upload.pattern="{path}/{cmd}"  "{build.path}/{build.project_name}.bin"
