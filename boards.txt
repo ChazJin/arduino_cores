@@ -28,6 +28,12 @@ gd_mbed_f30x.menu.upload_method.serialMethod.upload.options=
 gd_mbed_f30x.menu.upload_method.serialMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1
 gd_mbed_f30x.menu.upload_method.serialMethod.upload.tool=serial_upload
 
+gd_mbed_f30x.menu.upload_method.gdlinkMethod=GDlink (SWD)
+gd_mbed_f30x.menu.upload_method.gdlinkMethod.upload.protocol=gdlink
+gd_mbed_f30x.menu.upload_method.gdlinkMethod.upload.options=
+gd_mbed_f30x.menu.upload_method.gdlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
+gd_mbed_f30x.menu.upload_method.gdlinkMethod.upload.tool=gdlink_upload
+
 gd_mbed_f30x.menu.upload_method.jlinkMethod=Jlink (SWD)
 gd_mbed_f30x.menu.upload_method.jlinkMethod.upload.protocol=jlink
 gd_mbed_f30x.menu.upload_method.jlinkMethod.upload.options=
@@ -72,6 +78,12 @@ gd_eval_f303.menu.upload_method.serialMethod.upload.protocol= maple_serial
 gd_eval_f303.menu.upload_method.serialMethod.upload.options=
 gd_eval_f303.menu.upload_method.serialMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1
 gd_eval_f303.menu.upload_method.serialMethod.upload.tool=serial_upload
+
+gd_eval_f303.menu.upload_method.gdlinkMethod=GDlink (SWD)
+gd_eval_f303.menu.upload_method.gdlinkMethod.upload.protocol=gdlink
+gd_eval_f303.menu.upload_method.gdlinkMethod.upload.options=
+gd_eval_f303.menu.upload_method.gdlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
+gd_eval_f303.menu.upload_method.gdlinkMethod.upload.tool=gdlink_upload
 
 gd_eval_f303.menu.upload_method.jlinkMethod=Jlink (SWD)
 gd_eval_f303.menu.upload_method.jlinkMethod.upload.protocol=jlink
